@@ -7,20 +7,35 @@
   <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
 </head>
 <body>
-    <nav class="flex justify-between pt-[30px] pl-[100px] pr-[100px]">
+    <nav class="flex justify-between pt-[30px] md:pl-[100px] md:pr-[100px] pl-[30px]">
       <div class="">
         <img src="./img/Logo.png" alt="">
       </div>
-      <div class="flex gap-[40px]">
+      <div class="flex gap-[40px] md:inline-flex sm:hidden">
         <p>Home</p>
         <p>Skills</p>
         <p>About us</p>
         <p>Pricing</p>
         <p>Contacts</p>
       </div>
-      <div class="">
+      <div class="sm:hidden md:block">
         <button class="w-[200px] h-[50px] border-[1px]">Let’s Talk</button>
       </div>
+      <img src="./img/Group 28.png" alt="" class="md:hidden sm:block pr-[30px]">
     </nav>
+    <div class="md:pl-[100px] pt-[80px] flex justify-between pr-[200px] sm:flex-col-reverse md:flex-row">
+      <div class="sm:text-center md:text-start justify-items-center sm:pl-[200px] md:pl-0">
+        <h1 class="w-[300px] text-[64px]">Learn 
+          Any Foreign
+          Language</h1>
+          <p class="w-[320px] text-[#8F95A5] pt-[30px] pb-[30px]">With our teachers who write a program for 
+            each student, you will be able to make your
+            first sketch after the first lesson.</p>
+            <button class="w-[300px] h-[70px] bg-[#263238] text-white rounded-[15px]">Get started</button>
+      </div>
+      <div class="sm:pl-[30px] sm:w-[400px] md:w-[500px]">
+        <img src="./img/Learning languages-bro 1.png" alt="" class="w-[500px]">
+      </div>
+    </div>
 </body>
 </html>
