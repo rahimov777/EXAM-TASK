@@ -1,41 +1,91 @@
 <!doctype html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
 </head>
+
 <body>
-    <nav class="flex justify-between pt-[30px] md:pl-[100px] md:pr-[100px] pl-[30px]">
+  <nav class="flex justify-between pt-[30px] md:pl-[100px] md:pr-[100px] pl-[30px]">
+    <div class="">
+      <img src="./img/Logo.png" alt="">
+    </div>
+    <div class="flex gap-[40px] md:inline-flex sm:hidden">
+      <p>Home</p>
+      <p>Skills</p>
+      <p>About us</p>
+      <p>Pricing</p>
+      <p>Contacts</p>
+    </div>
+    <div class="sm:hidden md:block">
+      <button class="w-[200px] h-[50px] border-[1px]">Let’s Talk</button>
+    </div>
+    <img src="./img/Group 28.png" alt="" class="md:hidden sm:block pr-[30px]">
+  </nav>
+  <div class="md:pl-[100px] pt-[80px] flex justify-between pr-[200px] sm:flex-col-reverse md:flex-row">
+    <div class="sm:text-center md:text-start justify-items-center sm:pl-[200px] md:pl-0">
+      <h1 class="w-[300px] text-[64px]">Learn
+        Any Foreign
+        Language</h1>
+      <p class="w-[320px] text-[#8F95A5] pt-[30px] pb-[30px]">With our teachers who write a program for
+        each student, you will be able to make your
+        first sketch after the first lesson.</p>
+      <button class="w-[300px] h-[70px] bg-[#263238] text-white rounded-[15px]">Get started</button>
+    </div>
+    <div class="sm:pl-[30px] sm:w-[400px] md:w-[500px]">
+      <img src="./img/Learning languages-bro 1.png" alt="" class="w-[500px]">
+    </div>
+  </div>
+  <div class="justify-items-center mt-[80px]">
+    <h2 class="text-[48px]">Skills</h2>
+    <div class="flex gap-[30px] sm:flex-col md:flex-row">
+      <div class="w-[400px] h-[890px] bg-[#F5F5F5] rounded-[10px] sm:ml-[40px] md:ml-0">
+        <img src="./img/Shared goals-bro 1 (2).png" alt="">
+        <h2 class="text-[30px] pl-[20px]">Speaking</h2>
+        <p class="text-[#8F95A5] w-[350px] pl-[20px] pt-[50px] pb-[70px]">Improve your English skills and
+          confidence.Live classes and interactive lessons online. 20% extra free for a limited time only</p>
+        <p class="text-[#8F95A5] w-[350px] pl-[20px] pb-[70px]">Learn English online and improve your skills through our
+          high-quality coursesand resources – all designed for adult language learners.</p>
+        <button class="w-[200px] h-[40px] bg-[#263238] rounded-[5px] ml-[20px] text-white">Learn more</button>
+      </div>
       <div class="">
-        <img src="./img/Logo.png" alt="">
-      </div>
-      <div class="flex gap-[40px] md:inline-flex sm:hidden">
-        <p>Home</p>
-        <p>Skills</p>
-        <p>About us</p>
-        <p>Pricing</p>
-        <p>Contacts</p>
-      </div>
-      <div class="sm:hidden md:block">
-        <button class="w-[200px] h-[50px] border-[1px]">Let’s Talk</button>
-      </div>
-      <img src="./img/Group 28.png" alt="" class="md:hidden sm:block pr-[30px]">
-    </nav>
-    <div class="md:pl-[100px] pt-[80px] flex justify-between pr-[200px] sm:flex-col-reverse md:flex-row">
-      <div class="sm:text-center md:text-start justify-items-center sm:pl-[200px] md:pl-0">
-        <h1 class="w-[300px] text-[64px]">Learn 
-          Any Foreign
-          Language</h1>
-          <p class="w-[320px] text-[#8F95A5] pt-[30px] pb-[30px]">With our teachers who write a program for 
-            each student, you will be able to make your
-            first sketch after the first lesson.</p>
-            <button class="w-[300px] h-[70px] bg-[#263238] text-white rounded-[15px]">Get started</button>
-      </div>
-      <div class="sm:pl-[30px] sm:w-[400px] md:w-[500px]">
-        <img src="./img/Learning languages-bro 1.png" alt="" class="w-[500px]">
+        <div class="flex gap-[30px] sm:flex-col md:flex-row sm:ml-[40px] md:ml-0 ">
+          <div class="w-[400px] h-[550px] rounded-[10px] bg-[#F5F5F5]">
+            <img src="./img/Typewriter-bro 1 (1).png" alt="" class="justify-self-end">
+            <h2 class="text-[30px] pl-[20px]">Writing</h2>
+            <p class="text-[#8F95A5] w-[350px] pl-[20px] pt-[30px] pb-[30px]">One of the most important and extensive
+              areas of natural science, the science that
+              studies substances, also their composition </p>
+            <button class="w-[200px] h-[40px] bg-[#263238] rounded-[5px] ml-[20px] text-white">Learn more</button>
+          </div>
+          <div class="w-[400px] h-[550px] rounded-[10px] bg-[#F5F5F5]">
+            <img src="./img/House bookshelves-bro 1 (1).png" alt="">
+            <h2 class="text-[30px] pl-[20px]">Reading</h2>
+            <p class="text-[#8F95A5] w-[350px] pl-[20px] pt-[30px] pb-[30px]">perception and response actions of the
+              user
+              resulting from the use and/or upcoming use
+              of the product, system or service</p>
+            <button class="w-[200px] h-[40px] bg-[#263238] rounded-[5px] ml-[20px] text-white">Learn more</button>
+          </div>
+        </div>
+        <div class="w-[830px] h-[300px] rounded-[10px] bg-[#F5F5F5] mt-[40px] flex md:inline-flex sm:hidden">
+        <div class="">
+          <h2 class="text-[30px] p-[40px]">Listening</h2>
+          <p class="text-[#8F95A5] w-[350px] p-[40px] pt-[10px] pb-[30px]">Here you can find activities to practise
+            your listening skills. Listening will help you
+            to improve your understanding</p>
+            <button class="w-[200px] h-[40px] bg-[#263238] rounded-[5px] ml-[40px] text-white">Learn more</button>
+        </div>
+        <div class="">
+          <img src="./img/Podcast audience-bro 1 (1).png" alt="">
+        </div>
+        </div>
       </div>
     </div>
+  </div>
 </body>
+
 </html>
